@@ -1,0 +1,21 @@
+div{
+    width: 200px;
+    border: 50px solid orangered;
+    margin: 50px;
+    padding: 50px;
+    background-color: salmon;
+}
+h1 {
+    text-align: center;
+    color: blue;
+}
+p{
+    font-family: "Times New Roman";
+    color: brown;
+}
+table,th,td{
+    border: 2px solid blueviolet;
+}
+ol{
+    list-style-type: circle;
+}

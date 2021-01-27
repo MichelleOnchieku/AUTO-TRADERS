@@ -1,0 +1,46 @@
+h2{
+    text-align: center;
+    font-family: "Cooper Black";
+}
+body{
+    background-color: black;
+    color: white;
+}
+p{
+    font-size: 20px;
+    font-family: Constantia;
+    text-align: left;
+}
+h1{
+    font-family: "Times New Roman";
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+h3{
+    font-family: "Cooper Black";
+    font-size: 20px;
+    text-align: left;
+    color: brown;
+}
+ol{
+    list-style-type: circle;
+    font-size: 20px;
+}
+div{
+    width: 200px;
+    border: 50px solid royalblue;
+    margin: 50px;
+    padding: 50px;
+    background-color: cadetblue;
+}
+table,th,td{
+    border: 2px solid crimson;
+}
+input{
+    font-size: 30px;
+    border: navy;
+    color: navy;
+    width: 25%;
+    background-color: white;
+}

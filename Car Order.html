@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CAR ORDER</title>
+    <style>
+        h1{
+            font-family: "Cooper Black";
+            font-size: 40px;
+            color: red;
+            text-align: center;
+        }
+        h2{
+            color: red;
+            font-size: 20;
+            font-family: "Cooper Black";
+        }
+        body{
+            font-family: "Times New Roman";
+            font-size: 20px;
+            background-color: cyan;
+            color: black;
+            line-height: 2.0;
+        }
+
+    </style>
+</head>
+<body>
+<h1><u>CAR ORDER</u></h1>
+<h2><u>Owner Information Details</u></h2>
+<form action="Payments.html" target="_blank">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" placeholder="First Name" required><br>
+
+    <label for="mname">Middle Name:</label>
+    <input type="text" id="mname" placeholder="Middle Name" required><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" placeholder="Last Name" required><br>
+
+    <label for="Gender 1">Male:</label>
+    <input type="radio" id="Gender 1">
+
+    <label for="Gender 2">Female:</label>
+    <input type="radio" id="Gender 2">
+
+    <label for="Gender 3">Other:</label>
+    <input type="radio" id="Gender 3"><br>
+
+    <label for="dates">Date Of Birth:</label>
+    <input type="date" id="dates" required><br>
+
+    <label for="emailaddress">E-mail Address:</label>
+    <input type="email" id="emailaddress" placeholder="abcd@gmail.com" required><br>
+
+    <label for="phone">Telephone Number:</label>
+    <input type="tel" id="phone"name="phone" placeholder="123-45-678" required><br>
+
+    <label for="address">Mailing Address:</label>
+    <input type="number" value="address" placeholder="1234-567" required><br>
+
+    <label for="address">Street Number:</label>
+    <input type="text" id="address" required><br>
+
+    <label for="car model">Select Car Model:</label>
+    <select name="car model" id="car model">
+        <option value="none"></option>
+        <option value="Tesla Model X 2020">Tesla Model X 2020</option>
+        <option value="Tesla SUV 2019">Tesla SUV 2019</option>
+        <option value="Jeep 2020">Jeep</option>
+        <option value="Hyundai">Hyundai</option>
+        <option value="SUV">SUV</option>
+        <option value="Land Cruiser">Toyota Land Cruiser</option>
+        <option value="Mercedes">Mercedes Benz 2020</option>
+    </select><br>
+
+    <textarea name="message" cols="50" rows="20" placeholder="Describe how you want the interior and exterior
+features of the car to appear. If the car comes with gift bow...."></textarea><br>
+
+    <label for="week">Week for the car to be delivered:</label>
+    <input type="week" id="week" name="week" required><br>
+
+    <label for="amount">Car Whole Pricing (KES):</label>
+    <input type="number" id="amount" placeholder="KES" required>
+
+    <p>Kindly attach a copy of your <b>Identification Card, your Passport and Birth Certificate</b>.This is will
+help with the Verification Process to know if it's fraud.</p>
+    <label for="my file">Select File:</label>
+    <input type="file" id="my file" name="my file" multiple><br>
+
+    <input type="reset">
+    <input type="submit" value="Submit">
+    
+
+</form>
+</body>
+</html>

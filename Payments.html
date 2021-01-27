@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Payments</title>
+    <style>
+        body{
+            line-height: 2.0;
+            text-align: center;
+            color: gold;
+            background-color: black;
+            font-family: "Times New Roman";
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+<h1><u>Card Details</u></h1>
+<form action="Succesful.html">
+    <label for="payment">Select Payment Method:</label>
+    <select name="payment" id="payment">
+        <option value="none"></option>
+        <option value="Credit Card">Credit Card</option>
+    </select><br>
+
+    <label for="card details">Card Details</label>
+    <input type="number"id="card details" placeholder="1234 5678 9876 5432" required> <br>
+
+    <label for="month">mm/yy</label>
+    <input type="month" id="month"><br>
+
+    <label for="csc">Credit Card Security Code:</label>
+    <input type="number" id="CSC" placeholder="123" required>
+    <p><b> Note:</b>This is the number that appears at the back of your credit card.</p>
+
+    <label for="name">Card Holder's Name:</label>
+    <input type="text" id="name">
+
+    <label for="country">Country</label>
+    <select name="country" id="country">
+        <option value="none"></option>
+        <option value="Kenya">Kenya</option>
+    </select><br>
+
+    <label for="tel">Billing Telephone Number:</label>
+    <input type="tel" id="tel" placeholder="1234-56789" required><br>
+
+    <label for="address">Billing Address 1</label>
+    <input type="number" id="address" placeholder="1234-567"><br>
+
+    <label for="address 1">Billing Address 2</label>
+    <input type="number" id="address 1" required><br>
+
+<button type="button" onclick="alert('Order#1110652446544 has been placed!Kindly click SUBMIT to Confirm.')">
+    CLICK HERE!
+</button>
+    <br>
+    <input type="reset">
+    <input type="submit" value="SUBMIT">
+
+</form>
+
+</body>
+</html>
